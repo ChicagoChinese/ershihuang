@@ -17,3 +17,7 @@ Start the development server
 Convert latest translation text file into markdown file
 
     make generate
+
+## Links
+
+- [Goldmark config](https://gohugo.io/getting-started/configuration-markup/#goldmark)

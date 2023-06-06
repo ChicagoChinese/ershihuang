@@ -1,3 +1,9 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = '耳屎皇'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      hardWraps = true
+      unsafe = true

@@ -7,6 +7,22 @@
   <title>{{ block "title" . }}
     {{ .Site.Title }}
   {{ end }}</title>
+  <style>
+    body {
+      padding: 0 1em 1em 1em;
+    }
+    del {
+      color: #555;
+      background-color: lightpink;
+      text-decoration: none;
+    }
+    del:hover {
+      text-decoration: line-through;
+    }
+    span.correction {
+      background-color: lightgreen;
+    }
+  </style>
 </head>
 <body>
 {{ block "main" . }}
