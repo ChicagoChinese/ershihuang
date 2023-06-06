@@ -2,6 +2,7 @@
 title: "Guinea Pig Olympics"
 artist: "Parry Gripp"
 link: "https://youtu.be/cotkdOCD1eY"
+youtubeEmbedId: "cotkdOCD1eY"
 ---
 
 ## DeepL translation

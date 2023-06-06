@@ -136,6 +136,9 @@ def get_markdown_chunks(page: Page):
   yield f'title: "{meta.title}"'
   yield f'artist: "{meta.artist}"'
   yield f'link: "{meta.link}"'
+  if meta.link.startswith('https://youtu.be/'):
+    embed_id = meta.link[len('https://youtu.be/'):]
+    yield f'youtubeEmbedId: "{embed_id}"'
   yield '---\n'
 
   yield '## DeepL translation\n'
