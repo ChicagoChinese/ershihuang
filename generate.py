@@ -6,6 +6,7 @@ import re
 from pathlib import Path
 from dataclasses import dataclass
 from typing import List
+import datetime
 
 content_dir = Path(__file__).parent / 'site/content'
 
@@ -24,6 +25,13 @@ class Meta:
   title: str
   artist: str
   link: str
+  date: str
+
+  def __init__(self):
+    self.title = None
+    self.artist = None
+    self.link = None
+    self.date = None
 
 @dataclass
 class TranslatedLine:
@@ -81,10 +89,10 @@ def tokenize(input_file: Path):
         yield Line(line)
 
 def tokenize_meta(lines):
-  meta = Meta(None, None, None)
+  meta = Meta()
 
   for line in lines:
-    if match := re.match(r'^(title|artist|link)\:\s*(.*)', line):
+    if match := re.match(r'^(title|artist|link|date)\:\s*(.*)', line):
       key, value = match.groups()
       setattr(meta, key, value)
     else:
@@ -113,24 +121,6 @@ def parse(tokens):
   return Page(meta, stanzas)
 
 def get_markdown_chunks(page: Page):
-  meta = page.meta
-  yield '---'
-  yield f'title: {meta.title}'
-  yield f'artist: {meta.artist}'
-  yield f'link: {meta.link}'
-  yield '---\n'
-
-  for stanza in meta.stanzas:
-    for tline in stanza:
-      yield tline.source
-      if tline.correction is None:
-        yield f'<span>{tline.target}</span>'
-      else:
-        yield f'<span>{tline.target}</span>'
-
-    yield ''
-
-def get_markdown_chunks(page: Page):
   yield '---'
   meta = page.meta
   yield f'title: "{meta.title}"'
@@ -139,6 +129,8 @@ def get_markdown_chunks(page: Page):
   if meta.link.startswith('https://youtu.be/'):
     embed_id = meta.link[len('https://youtu.be/'):]
     yield f'youtubeEmbedId: "{embed_id}"'
+  dt = datetime.datetime.fromisoformat(meta.date)
+  yield f'date: {dt.astimezone().isoformat()}'
   yield '---\n'
 
   yield '## DeepL translation\n'
