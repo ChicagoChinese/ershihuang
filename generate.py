@@ -34,7 +34,7 @@ class Meta:
     self.date = None
 
 @dataclass
-class TranslatedLine:
+class TranslatedBlock:
   source: str
   target: str
   correction: str
@@ -46,7 +46,7 @@ class TranslatedLine:
 
 @dataclass
 class Stanza:
-  lines = List[TranslatedLine]
+  lines = List[TranslatedBlock]
 
   def __init__(self):
     self.lines = []
@@ -57,13 +57,13 @@ class Stanza:
 
   def add_line(self, line: Line):
     if self.last is None:
-      self.lines.append(TranslatedLine(line.content))
+      self.lines.append(TranslatedBlock(line.content))
     elif line.starts_with_semicolon():
       self.last.correction = line.content[1:]
     elif line.starts_with_colon():
       self.last.note = line.content[1:]
     elif self.last.source is not None and self.last.target is not None:
-      self.lines.append(TranslatedLine(line.content))
+      self.lines.append(TranslatedBlock(line.content))
     else:
       self.last.target = line.content
 

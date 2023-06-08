@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=viewport content="width=device-width,minimum-scale=1">
+<title>Merge stanzas into paragraphs</title>
+<style>
+  body {
+    display: flex;
+    height: 100vh;
+  }
+  textarea {
+    flex: 1;
+  }
+</style>
+</head>
+<body>
+<textarea id="input" autofocus="true" onInput="handleInput(event)"></textarea>
+<textarea id="output"></textarea>
+
+<script>
+function handleInput(evt) {
+  const stanzas = evt.target.value.split(/\n{2,}/)
+  const paragraphs = stanzas.map(stanza => stanza.split('\n').join(' '))
+  const outputElement = document.getElementById('output')
+  outputElement.textContent = paragraphs.join('\n\n')
+  outputElement.focus()
+  outputElement.select()
+}
+</script>
+</body>
+</html>
