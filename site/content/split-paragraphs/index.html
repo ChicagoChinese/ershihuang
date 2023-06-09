@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=viewport content="width=device-width,minimum-scale=1">
+<title>Split paragraphs into stanzas</title>
+<style>
+  body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  #inputs {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+  }
+  #inputs textarea {
+    flex: 1;
+    height: 100%;
+  }
+  #output {
+    height: 200px;
+  }
+</style>
+</head>
+<body>
+<div id="inputs">
+  <textarea id="source" onInput="handleInput()"></textarea>
+  <textarea id="target" onInput="handleInput()"></textarea>
+</div>
+<textarea id="output"></textarea>
+
+<script>
+const getEl = (id) => document.getElementById(id)
+
+window.addEventListener('load', () => {
+  getEl('source').value = localStorage.getItem('source') || ''
+  getEl('target').value = localStorage.getItem('target') || ''
+
+  handleInput()
+})
+
+window.addEventListener('unload', () => {
+  localStorage.setItem('source', getEl('source').value)
+  localStorage.setItem('target', getEl('target').value)
+})
+
+function handleInput() {
+  const sourceLines = combineIndentedLines(getEl('source').value.split('\n'))
+  const targetLines = getEl('target').value.split('\n')
+
+  let outputLines = []
+  for (let i=0; i < targetLines.length; i++) {
+    const src = sourceLines[i]
+    const tgt = targetLines[i]
+    if (src === '' && tgt === '') {
+      outputLines.push('')
+    } else {
+      outputLines.push(src)
+      outputLines.push(tgt)
+    }
+  }
+  getEl('output').value = outputLines.join('\n')
+}
+
+function combineIndentedLines(lines) {
+  const output = []
+
+  for (let line of lines) {
+    if (line.startsWith('  ')) {
+      output[output.length-1] += '\n' + line
+    } else {
+      output.push(line)
+    }
+  }
+  return output
+}
+</script>
+</body>
+</html>
