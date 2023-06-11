@@ -7,18 +7,37 @@ from pathlib import Path
 from dataclasses import dataclass
 from typing import List
 import datetime
+import enum
 
 content_dir = Path(__file__).parent / 'site/content'
+
+class LineType(enum.Enum):
+  NORMAL = 1
+  CONTINUATION = 2
+  CORRECTION = 3
+  NOTE = 4
 
 @dataclass
 class Line:
   content: str
+  type = LineType
 
-  def starts_with_semicolon(self):
-    return self.content.startswith(';') or self.content.startswith('；')
+  def __init__(self, line):
+    if line.startswith('  '):
+      self.type = LineType.CONTINUATION
+      self.content = line.lstrip()
+    elif line.startswith(';') or line.startswith('；'):
+      self.type = LineType.CORRECTION
+      self.content = line[1:]
+    elif line.startswith(':') or line.startswith('：'):
+      self.type = LineType.NOTE
+      self.content = line[1:]
+    else:
+      self.type = LineType.NORMAL
+      self.content = line
 
-  def starts_with_colon(self):
-    return self.content.startswith(':') or self.content.startswith('：')
+  def __str__(self):
+    return f'Line(content={self.content!r}, type={self.type.name})'
 
 @dataclass
 class Meta:
@@ -58,10 +77,12 @@ class Stanza:
   def add_line(self, line: Line):
     if self.last is None:
       self.lines.append(TranslatedBlock(line.content))
-    elif line.starts_with_semicolon():
-      self.last.correction = line.content[1:]
-    elif line.starts_with_colon():
-      self.last.note = line.content[1:]
+    elif line.type == LineType.CORRECTION:
+      self.last.correction = line.content
+    elif line.type == LineType.NOTE:
+      self.last.note = line.content
+    elif line.type == LineType.CONTINUATION:
+      self.last.source += '\n' + line.content
     elif self.last.source is not None and self.last.target is not None:
       self.lines.append(TranslatedBlock(line.content))
     else:
@@ -103,7 +124,7 @@ def tokenize_meta(lines):
 def get_lines(input_file: Path):
   with input_file.open() as fp:
     for line in fp:
-      yield line.strip()
+      yield line.rstrip()
 
 def parse(tokens):
   meta = None
@@ -138,7 +159,7 @@ def get_markdown_chunks(page: Page):
   for stanza in page.stanzas:
     for tline in stanza.lines:
       yield tline.source
-      yield tline.target
+      yield f'<span class="target">{tline.target}</span>'
     yield ''
 
   yield '## Corrections\n'
@@ -155,9 +176,9 @@ def get_markdown_chunks(page: Page):
           footnote_ref = f'[^{len(footnotes)+1}]'
           footnotes.append(tline.note)
 
-        yield f'~~{tline.target}~~ <span class="correction">{tline.correction}</span>{footnote_ref}'
+        yield f'<span class="target"><del>{tline.target}</del> <span class="correction">{tline.correction}</span>{footnote_ref}</span>'
       else:
-        yield tline.target
+        yield f'<span class="target">{tline.target}</span>'
     yield ''
 
   if len(footnotes) > 0:
