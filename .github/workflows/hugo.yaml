@@ -50,9 +50,8 @@ jobs:
         uses: actions/configure-pages@v3
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
-      - name: Go into site directory
-        run: "cd site"
       - name: Build with Hugo
+        working-directory: ./site
         env:
           # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
