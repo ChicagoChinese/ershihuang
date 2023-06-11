@@ -7,27 +7,22 @@
   <title>{{ block "title" . }}
     {{ .Site.Title }}
   {{ end }}</title>
-  <style>
-    body {
-      padding: 0 1em 1em 1em;
-    }
-    span.target {
-      background-color: #eee;
-      padding: 0.2em;
-    }
-    span.correction {
-      display: none;
-    }
-    span.correction.show {
-      display: inline;
-    }
-    span.strikethrough {
-      text-decoration: line-through;
-    }
-  </style>
+  {{ with resources.Get "css/base.css" }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}">
+  {{ end }}
+  {{ if eq .Kind "page" }}
+    {{ with resources.Get "css/single.css" }}
+      <link rel="stylesheet" href="{{ .RelPermalink }}">
+    {{ end }}
+  {{ end }}
 </head>
 <body>
 {{ block "main" . }}
+{{ end }}
+{{ if eq .Kind "page" }}
+  {{ with resources.Get "js/single.js" }}
+    <script src="{{ .RelPermalink }}"></script>
+  {{ end }}
 {{ end }}
 </body>
 </html>

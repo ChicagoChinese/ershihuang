@@ -1,0 +1,13 @@
+span.target {
+  background-color: #eee;
+  padding: 0.2em;
+}
+span.correction {
+  display: none;
+}
+span.correction.show {
+  display: inline;
+}
+span.strikethrough {
+  text-decoration: line-through;
+}
