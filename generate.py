@@ -154,15 +154,7 @@ def get_markdown_chunks(page: Page):
   yield f'date: {dt.astimezone().isoformat()}'
   yield '---\n'
 
-  yield '## DeepL translation\n'
-
-  for stanza in page.stanzas:
-    for tline in stanza.lines:
-      yield tline.source
-      yield f'<span class="target">{tline.target}</span>'
-    yield ''
-
-  yield '## Corrections\n'
+  yield '## Lyrics\n'
 
   footnotes = []
 
@@ -176,7 +168,7 @@ def get_markdown_chunks(page: Page):
           footnote_ref = f'[^{len(footnotes)+1}]'
           footnotes.append(tline.note)
 
-        yield f'<span class="target"><span class="original">{tline.target}</span> <span class="correction">{tline.correction}</span>{footnote_ref}</span>'
+        yield f'<span class="target"><span class="original">{tline.target}</span> <span class="correction">{tline.correction}{footnote_ref}</span></span>'
       else:
         yield f'<span class="target">{tline.target}</span>'
     yield ''
@@ -192,14 +184,16 @@ def convert_page_to_markdown(page: Page, output_file: Path):
 
 if __name__ == '__main__':
   if len(sys.argv) > 1:
-    input_file = Path(sys.argv)
+    input_file = Path(sys.argv[1])
   else:
     txt_files = list(Path('translations').glob('*.txt'))
     txt_files.sort(key=lambda p: p.stat().st_mtime, reverse=True)
     input_file = txt_files[0]
 
+  print(f'Processing {input_file}')
   output_file = (content_dir / Path(input_file.name)).with_suffix('.md')
 
   tokens = tokenize(input_file)
   page = parse(tokens)
   convert_page_to_markdown(page, output_file)
+  print(f'Generated {output_file}')
