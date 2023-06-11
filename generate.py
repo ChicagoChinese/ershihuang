@@ -176,7 +176,7 @@ def get_markdown_chunks(page: Page):
           footnote_ref = f'[^{len(footnotes)+1}]'
           footnotes.append(tline.note)
 
-        yield f'<span class="target"><del>{tline.target}</del> <span class="correction">{tline.correction}</span>{footnote_ref}</span>'
+        yield f'<span class="target"><span class="original">{tline.target}</span> <span class="correction">{tline.correction}</span>{footnote_ref}</span>'
       else:
         yield f'<span class="target">{tline.target}</span>'
     yield ''

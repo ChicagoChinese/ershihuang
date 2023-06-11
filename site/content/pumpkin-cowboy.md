@@ -165,7 +165,7 @@ And they crashed into each other,
 Cat and Pumpkin, Flesh and Blade!!!!
 <span class="target">猫和南瓜，肉和刀!!!!！</span>
 (spoken) And the knife fell to the arid ground
-<span class="target">(刀子掉在干旱的地上，</span>
+<span class="target">刀子掉在干旱的地上，</span>
 And the scoundrel stood.
 <span class="target">而那个恶棍站着。</span>
 Then swayed.
@@ -215,7 +215,7 @@ Pumpkin Cowboy!
 Pumpkin Cowboy!!!
 <span class="target">南瓜牛仔！！！</span>
 PUMPKIN COWBOY!!!!!
-<span class="target">南瓜牛仔 南瓜牛仔!!!!!</span>
+<span class="target">南瓜牛仔!!!!!</span>
 
 ## Corrections
 
@@ -237,7 +237,7 @@ For he despises violence.
 <span class="target">因为他鄙视暴力。</span>
 Take a fireside moon over your saloon
 As he much prefers the silence!
-<span class="target">在你的酒馆里来个炉边月，因为他更喜欢安静!</span>
+<span class="target"><span class="original">在你的酒馆里来个炉边月，因为他更喜欢安静!</span> <span class="correction">比起酒吧，他更偏向于篝火边的月亮，因为他更喜欢安静！</span></span>
 Pumpkin Cowboy!
 <span class="target">南瓜牛仔！</span>
 Pumpkin Cowboy!
@@ -245,10 +245,10 @@ Pumpkin Cowboy!
 
 Well it ain’t no bluff that life is tough
 For a gourd out on the range!
-<span class="target">在牧场上生活的人，生活是艰难的，这并不是虚言！</span>
+<span class="target"><span class="original">在牧场上生活的人，生活是艰难的，这并不是虚言！</span> <span class="correction">一个葫芦在牧场上过日子很艰难，这并不是虚言！</span></span>
 But for all the woes in the life he chose,
 He’s never seemed to change!
-<span class="target">但他所选择的生活中的所有苦难，他似乎从未改变过!</span>
+<span class="target"><span class="original">但他所选择的生活中的所有苦难，他似乎从未改变过!</span> <span class="correction">虽然他在自己选择的生活中吃了很多苦，他似乎从未改变过!</span></span>
 With a smile wide and a kerchief tied
 Around his neck/waist.
 <span class="target">笑容满面，脖子/腰间系着手帕。</span>
@@ -293,16 +293,16 @@ Who liked to play with knives!
 <span class="target">他们说他是个喜欢玩刀子的魔鬼！</span>
 He’d steal your purse, and do much worse
 If a hairball made him grouchy!
-<span class="target">他会偷你的钱包，如果一个毛球让他生气，他还会做更坏的事！</span>
+<span class="target"><span class="original">他会偷你的钱包，如果一个毛球让他生气，他还会做更坏的事！</span> <span class="correction">如果一颗毛球惹他发牢骚，他会偷你的钱包，甚至还会干更坏的事！</span></span>
 If you summed up some of the things he’s done
 With one word, it’d be ouchie!
 <span class="target">如果用一个词来概括他所做的一些事情，那就是 "哎哟"！</span>
 (Ouchie! Ouchie!)
-<span class="target">(Ouchie！Ouchie！)</span>
+<span class="target"><span class="original">(Ouchie！Ouchie！)</span> <span class="correction">（哎呦！哎呦！）</span></span>
 
 Though he had heard tales while on the trails
 Of the feline fiend reviled,
-<span class="target">虽然他在小路上听到了被人唾弃的猫魔的故事，</span>
+<span class="target"><span class="original">虽然他在小路上听到了被人唾弃的猫魔的故事，</span> <span class="correction">虽然他在小路上听说过关于猫魔的故事，</span></span>
 Pumpkin Cowboy couldn’t leave,
 <span class="target">但南瓜牛仔不能离开，</span>
 For his cow was now with child!
@@ -358,7 +358,7 @@ He’d let him take his hat!
 But the rascal took no compromise!
 <span class="target">但这个流氓没有妥协!</span>
 No hat, nor ranch, nor plain!
-<span class="target">没有帽子，没有牧场，也没有平原!</span>
+<span class="target"><span class="original">没有帽子，没有牧场，也没有平原!</span> <span class="correction">不要帽子，不要牧场，也不要平原!</span></span>
 He said the thing he wanted most
 <span class="target">他说他最想做的事</span>
 Was just to inflict pain!
@@ -376,24 +376,24 @@ And they crashed into each other,
 Cat and Pumpkin, Flesh and Blade!!!!
 <span class="target">猫和南瓜，肉和刀!!!!！</span>
 (spoken) And the knife fell to the arid ground
-<span class="target">(刀子掉在干旱的地上，</span>
+<span class="target"><span class="original">刀子掉在干旱的地上，</span> <span class="correction">（讲的）刀子掉在干旱的地上，</span></span>
 And the scoundrel stood.
-<span class="target">而那个恶棍站着。</span>
+<span class="target"><span class="original">而那个恶棍站着。</span> <span class="correction">而那个恶棍站了起来。</span></span>
 Then swayed.
-<span class="target">然后摇摇晃晃地走了。</span>
+<span class="target"><span class="original">然后摇摇晃晃地走了。</span> <span class="correction">然后摇晃了一下。</span></span>
 
 Cat Cowboy crumpled to the dirt,
-<span class="target">猫咪牛仔缩在土里，</span>
+<span class="target"><span class="original">猫咪牛仔缩在土里，</span> <span class="correction">猫牛仔倾倒在土上，</span></span>
 And Pumpkin kneeled beside.
 <span class="target">南瓜跪在旁边。</span>
 And cow stood vigil next to him
-<span class="target">牛站在他旁边守候着，</span>
+<span class="target"><span class="original">牛站在他旁边守候着，</span> <span class="correction">牛在他旁边守候着，</span></span>
 As Pumpkin Cowboy cried.
 <span class="target">南瓜牛仔哭了。</span>
 He tipped his hat at Cowboy Cat,
-<span class="target">他对着猫咪牛仔的帽子，</span>
+<span class="target"><span class="original">他对着猫咪牛仔的帽子，</span> <span class="correction">他向猫牛仔倾斜了帽子，</span>[^1]</span>
 And stood without a sound.
-<span class="target">一声不响地站着。</span>
+<span class="target"><span class="original">一声不响地站着。</span> <span class="correction">然后默默地站了起来。</span></span>
 And when townfolk came to cheer his name,
 <span class="target">当镇上的人前来欢呼他的名字时，</span>
 Our hero wasn’t found.
@@ -403,9 +403,9 @@ Our hero wasn’t found.
 <span class="target">*钟声响起*</span>
 
 (spoken) Some say he started wandering
-<span class="target">有人说他开始徘徊，</span>
+<span class="target"><span class="original">有人说他开始徘徊，</span> <span class="correction">（讲的）有人说他开始徘徊，</span></span>
 For greener fields to roam.
-<span class="target">想在更绿的田野上漫游。</span>
+<span class="target"><span class="original">想在更绿的田野上漫游。</span> <span class="correction">想在更美好的田野上漫游。</span></span>
 But he didn’t bring his cattle,
 <span class="target">但他没有带他的牛，</span>
 And his horse stayed there at home.
@@ -418,13 +418,14 @@ The town’s own pride and joy.
 And the folks will regale
 <span class="target">乡亲们会给你讲</span>
 you with a Gourd-geous Tale:
-<span class="target">一个葫芦娃的故事：</span>
+<span class="target"><span class="original">一个葫芦娃的故事：</span> <span class="correction">一个帅气的故事：</span></span>
 The tale of a Pumpkin Cowboy!
-<span class="target">南瓜牛仔的故事!</span>
+<span class="target"><span class="original">南瓜牛仔的故事!</span> <span class="correction">一个南瓜牛仔的故事!</span></span>
 Pumpkin Cowboy!
 <span class="target">南瓜牛仔!</span>
 Pumpkin Cowboy!!!
 <span class="target">南瓜牛仔！！！</span>
 PUMPKIN COWBOY!!!!!
-<span class="target">南瓜牛仔 南瓜牛仔!!!!!</span>
+<span class="target">南瓜牛仔!!!!!</span>
 
+[^1]: tip one's hat是一种致敬的动作
