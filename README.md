@@ -21,3 +21,4 @@ Convert latest translation text file into markdown file
 ## Links
 
 - [Goldmark config](https://gohugo.io/getting-started/configuration-markup/#goldmark)
+- [lite-youtube custom element](https://github.com/paulirish/lite-youtube-embed)

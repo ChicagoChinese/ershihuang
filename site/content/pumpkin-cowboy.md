@@ -1,5 +1,6 @@
 ---
-title: "Pumpkin Cowboy"
+title: "南瓜牛仔"
+trackTitle: "Pumpkin Cowboy"
 artist: "Brian David Gilbert"
 link: "https://youtu.be/4iTAkRHGbuM"
 youtubeEmbedId: "4iTAkRHGbuM"

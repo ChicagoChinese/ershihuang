@@ -42,6 +42,7 @@ class Line:
 @dataclass
 class Meta:
   title: str
+  trackTitle: str
   artist: str
   link: str
   date: str
@@ -113,7 +114,7 @@ def tokenize_meta(lines):
   meta = Meta()
 
   for line in lines:
-    if match := re.match(r'^(title|artist|link|date)\:\s*(.*)', line):
+    if match := re.match(r'^(title|trackTitle|artist|link|date)\:\s*(.*)', line):
       key, value = match.groups()
       setattr(meta, key, value)
     else:
@@ -145,6 +146,7 @@ def get_markdown_chunks(page: Page):
   yield '---'
   meta = page.meta
   yield f'title: "{meta.title}"'
+  yield f'trackTitle: "{meta.trackTitle}"'
   yield f'artist: "{meta.artist}"'
   yield f'link: "{meta.link}"'
   if meta.link.startswith('https://youtu.be/'):

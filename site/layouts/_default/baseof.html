@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="{{ .RelPermalink }}">
   {{ end }}
   {{ if eq .Kind "page" }}
+    {{ with resources.Get "css/lite-yt-embed.css" }}
+      <link rel="stylesheet" href="{{ .RelPermalink }}">
+    {{ end }}
     {{ with resources.Get "css/single.css" }}
       <link rel="stylesheet" href="{{ .RelPermalink }}">
     {{ end }}
@@ -20,6 +23,9 @@
 {{ block "main" . }}
 {{ end }}
 {{ if eq .Kind "page" }}
+  {{ with resources.Get "js/lite-yt-embed.js" }}
+    <script src="{{ .RelPermalink }}"></script>
+  {{ end }}
   {{ with resources.Get "js/single.js" }}
     <script src="{{ .RelPermalink }}"></script>
   {{ end }}

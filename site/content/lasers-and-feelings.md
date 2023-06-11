@@ -1,5 +1,6 @@
 ---
-title: "Lasers and Feelings"
+title: "激光与感情"
+trackTitle: "Lasers and Feelings"
 artist: "The Doubleclicks"
 link: "https://youtu.be/mPxkz0tFs4I"
 youtubeEmbedId: "mPxkz0tFs4I"

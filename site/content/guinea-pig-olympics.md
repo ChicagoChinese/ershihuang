@@ -1,5 +1,6 @@
 ---
-title: "Guinea Pig Olympics"
+title: "天竺鼠奥运会"
+trackTitle: "Guinea Pig Olympics"
 artist: "Parry Gripp"
 link: "https://youtu.be/cotkdOCD1eY"
 youtubeEmbedId: "cotkdOCD1eY"
