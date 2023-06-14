@@ -3,6 +3,7 @@ trackTitle: Lasers and Feelings
 artist: The Doubleclicks
 link: https://youtu.be/mPxkz0tFs4I
 date: 2023-06-11
+draft: true
 
 In first grade you said I was pretty.
 一年级时，你说我很美。

@@ -3,6 +3,7 @@ trackTitle: Guinea Pig Olympics
 artist: Parry Gripp
 link: https://youtu.be/cotkdOCD1eY
 date: 2023-06-06
+draft: true
 
 Guinea Pig Olympics! (Guinea Pig)
 几内亚猪奥运会!（几内亚猪）

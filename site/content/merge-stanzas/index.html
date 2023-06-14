@@ -22,14 +22,20 @@
 <textarea id="output"></textarea>
 
 <script>
+const getEl = (id) => document.getElementById(id)
+
 function handleInput(evt) {
   const stanzas = evt.target.value.split(/\n{2,}/)
   const paragraphs = stanzas.map(stanza => stanza.split('\n').join(' '))
-  const outputElement = document.getElementById('output')
+  const outputElement = getEl('output')
   outputElement.textContent = paragraphs.join('\n\n')
   outputElement.focus()
   outputElement.select()
 }
+
+window.addEventListener('unload', () => {
+  localStorage.setItem('source', getEl('input').value)
+})
 </script>
 </body>
 </html>

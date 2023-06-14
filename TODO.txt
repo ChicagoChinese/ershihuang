@@ -1,8 +1,11 @@
 # TODO
 
 - [x] Add utility page to merge stanzas into paragraphs
-- [ ] Add utility page to split paragraphs back into stanzas
+- [x] Add utility page to split paragraphs back into stanzas
+- [x] Allow TranslationBlock to be multiple lines
+- [x] Give a different background color to target lines
+- [x] Add CSS files to assets directory
+- [ ] Meta should just be an ordered dictionary
+- [ ] Add Make task to create new translations
+- [ ] Add tasks to regenerate all translation documents
 - [ ] Use side-by-side layout for desktop
-- [ ] Allow TranslationBlock to be multiple lines
-- [ ] Give a different background color to target lines
-- [ ] Add CSS file to static directory

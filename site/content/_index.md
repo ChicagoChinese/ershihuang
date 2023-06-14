@@ -2,4 +2,5 @@
 title: "耳屎皇"
 ---
 
-Start here
+Tools: [Merge stanzas into paragraphs](merge-stanzas) | [Split paragraphs into stanzas](split-paragraphs)
+

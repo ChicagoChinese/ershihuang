@@ -3,6 +3,7 @@ trackTitle: Middle of a Heart
 artist: Adeem the Artist
 link: https://youtu.be/IpRIuhB2B2c
 date: 2023-06-12
+draft: true
 
 Daddy’s gonna buy me a brand-new gun,
 爸爸要给我买一把全新的枪，

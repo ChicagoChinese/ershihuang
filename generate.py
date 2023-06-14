@@ -8,6 +8,7 @@ from dataclasses import dataclass
 from typing import List
 import datetime
 import enum
+import collections
 
 content_dir = Path(__file__).parent / 'site/content'
 
@@ -41,17 +42,19 @@ class Line:
 
 @dataclass
 class Meta:
-  title: str
-  trackTitle: str
-  artist: str
-  link: str
-  date: str
+  content = collections.OrderedDict
+  # title: str
+  # trackTitle: str
+  # artist: str
+  # link: str
+  # date: str
 
   def __init__(self):
-    self.title = None
-    self.artist = None
-    self.link = None
-    self.date = None
+    self.content = collections.OrderedDict()
+    # self.title = None
+    # self.artist = None
+    # self.link = None
+    # self.date = None
 
 @dataclass
 class TranslatedBlock:
@@ -114,9 +117,9 @@ def tokenize_meta(lines):
   meta = Meta()
 
   for line in lines:
-    if match := re.match(r'^(title|trackTitle|artist|link|date)\:\s*(.*)', line):
+    if match := re.match(r'^([a-zA-Z]+)\:\s*(.*)', line):
       key, value = match.groups()
-      setattr(meta, key, value)
+      meta.content[key] = value
     else:
       break
 
@@ -144,16 +147,20 @@ def parse(tokens):
 
 def get_markdown_chunks(page: Page):
   yield '---'
-  meta = page.meta
-  yield f'title: "{meta.title}"'
-  yield f'trackTitle: "{meta.trackTitle}"'
-  yield f'artist: "{meta.artist}"'
-  yield f'link: "{meta.link}"'
-  if meta.link.startswith('https://youtu.be/'):
-    embed_id = meta.link[len('https://youtu.be/'):]
-    yield f'youtubeEmbedId: "{embed_id}"'
-  dt = datetime.datetime.fromisoformat(meta.date)
-  yield f'date: {dt.astimezone().isoformat()}'
+  for key, value in page.meta.content.items():
+    match key:
+      case 'link':
+        yield f'link: "{value}"'
+        if value.startswith('https://youtu.be/'):
+          embed_id = value[len('https://youtu.be/'):]
+          yield f'youtubeEmbedId: "{embed_id}"'
+      case 'date':
+        dt = datetime.datetime.fromisoformat(value)
+        yield f'date: {dt.astimezone().isoformat()}'
+      case 'draft':
+        yield f'draft: {value}'
+      case _:
+        yield f'{key}: "{value}"'
   yield '---\n'
 
   yield '## Lyrics\n'

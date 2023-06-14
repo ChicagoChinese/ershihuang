@@ -3,6 +3,7 @@ trackTitle: After We Shot the Grizzly
 artist: The Handsome Family
 link: https://youtu.be/N_zlrpNerFs
 date: 2023-06-13
+draft: true
 
 After we shot the grizzly,
 在我们射杀灰熊之后，
