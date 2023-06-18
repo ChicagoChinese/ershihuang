@@ -6,9 +6,8 @@ date: 2023-06-14
 draft: true
 
 With a body length of about 20 centimeters,
-牛蛙的体长约为20厘米，
-Bullfrogs are the largest frogs in North America,
-是北美最大的青蛙，
+  Bullfrogs are the largest frogs in North America,
+牛蛙的体长约为20厘米，是北美最大的青蛙，
 As well as the champion jumpers.
 同时也是跳跃的冠军。
 
@@ -16,34 +15,37 @@ Long Legged Larry was a frog at the pond.
 长腿拉里是池塘里的一只青蛙。
 Jump so high, might miss him while he gone.
 跳得很高，在他离开时可能会错过他。
+；跳得很高，在他离地时可能会错过他。
 Jump over anything, even King Kong.
 跳过任何东西，甚至金刚。
 Jumping Jack Flash was his favorite song.
-跳跃的杰克 "是他最喜欢的歌曲。
+跳跃的杰克是他最喜欢的歌曲。
 Now once upon a time there was a cat in a tree,
 从前有只猫在树上，
 Chased a squirrel up, been stuck since three.
 追着一只松鼠跑，从三点开始就卡住了。
+；追着一只松鼠跑上去，从三点开始就卡住了。
 The fireman came, said "It's too high for me".
 消防员来了，说 "这对我来说太高了"。
 How's that cat gonna ever get free?
 那只猫怎么可能获得自由呢？
 Young Jack Turner was a staple on the block,
-年轻的杰克-特纳是街区的主力军，
+年轻的杰克·特纳是街区的主力军，
 Said he knew about a frog with an XL hop.
 他说他知道有一只青蛙会跳得很厉害。
 The neighbors started laughing, but Jackie wouldn't stop.
 邻居们开始大笑，但杰克不肯罢休。
 Ran off, came back, guess who he got?
 他跑了，又回来了，你猜他抓到了谁？
+；他跑走了，又回来了，你猜他把谁带过来了？
 Well, it was Long Legged Larry, didn't open his mouth,
 好吧，是长腿拉里，他没有开口，
 Like a rocket to the moon through a cumulus cloud,
 就像火箭穿过积雨云飞向月球，
 Touch down safe, lay the scaredy-cat on the ground.
-安全着陆，把那只胆小的猫放在地上。如果你听得很仔细，
+安全着陆，把那只胆小的猫放在地上。
 If you listen real close, you can still hear the crowd.
-你还能听到人群的声音。
+如果你听得很仔细，你还能听到人群的声音。
 
 Go Larry, go Larry, go, go, go Larry.
 去吧，拉里，去吧，拉里，去吧，拉里。
@@ -57,9 +59,10 @@ Jump so high grow a beard in the air.
 Jump over anything, even Times Square.
 跳过任何东西，甚至时代广场。
 Yelling "Long Legged Larry for mayor! Here! Here!"
-喊着 "长腿拉里竞选市长！"！这里! 这里！这里！"
+喊着 "长腿拉里竞选市长！这里! 这里！"
 Now once upon a time there was a princess in a cell.
 现在，很久以前，有一位公主在牢房里。
+；从前有一位公主在牢房里。
 In the tower of a castle, through a forest on a hill.
 在一座城堡的塔楼里，穿过一座山上的森林。
 Half the men that ever sought her out had fallen ill.
@@ -68,10 +71,12 @@ All the men that ever tried to climb the wall had fell.
 所有试图爬上城墙的人都倒下了。
 Handful gather at the base of the place,
 一小撮人聚集在山脚下，
+；一小撮人聚集在那个地方的地基，
 Each claim way braver than the bravest you've faced,
 每个人都声称自己比你所面对的最勇敢的人更勇敢，
 Bunch of dingbats yapping about saving the day.
 一群笨蛋嚷嚷着要拯救这一天。
+；一群笨蛋嚷嚷着要拯救一切。
 But wait, a silhouetted amphibian face in haze.
 但是等一下，在朦胧中出现了一张两栖动物的剪影。
 Well, it was Long Legged Larry on the back of a steed.
