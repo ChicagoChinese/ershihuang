@@ -6,3 +6,6 @@ server:
 
 generate:
 	python generate.py
+
+new:
+	python new-translation.py

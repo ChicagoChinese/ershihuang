@@ -5,7 +5,8 @@
 - [x] Allow TranslationBlock to be multiple lines
 - [x] Give a different background color to target lines
 - [x] Add CSS files to assets directory
-- [ ] Meta should just be an ordered dictionary
-- [ ] Add Make task to create new translations
+- [x] Meta should just be an ordered dictionary
+- [x] Add Make task to create new translations
+- [x] Translation documents should be JSON, not Markdown
 - [ ] Add tasks to regenerate all translation documents
 - [ ] Use side-by-side layout for desktop
