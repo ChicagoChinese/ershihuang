@@ -5,7 +5,7 @@ artist: "Brian David Gilbert"
 link: "https://youtu.be/4iTAkRHGbuM"
 youtubeEmbedId: "4iTAkRHGbuM"
 date: 2023-06-10T00:00:00-05:00
-draft: true
+draft: false
 ---
 
 ## Lyrics
@@ -21,14 +21,14 @@ And he loves his cattle so!
 <span class="target">他非常喜欢他的牛！</span>
 But there’s no way he gets lumped in
 With most cowboys you know!
-<span class="target">但他不可能和你认识的大多数牛仔混为一谈!</span>
+<span class="target"><span class="original">但他不可能和你认识的大多数牛仔混为一谈!</span> <span class="correction">但他跟你认识的大多数牛仔可不一样!</span></span>
 He’s no outlaw, and he won’t quick draw
 <span class="target">他不是亡命之徒，他也不会快速拔枪，</span>
 For he despises violence.
 <span class="target">因为他鄙视暴力。</span>
 Take a fireside moon over your saloon
 As he much prefers the silence!
-<span class="target"><span class="original">在你的酒馆里来个炉边月，因为他更喜欢安静!</span> <span class="correction">比起酒吧，他更偏向于篝火边的月亮，因为他更喜欢安静！</span></span>
+<span class="target"><span class="original">在你的酒馆里来个炉边月，因为他更喜欢安静!</span> <span class="correction">他不喜欢泡酒吧，他喜欢篝火和月亮，因为他更喜欢安静！</span></span>
 Pumpkin Cowboy!
 <span class="target">南瓜牛仔！</span>
 Pumpkin Cowboy!
@@ -36,7 +36,7 @@ Pumpkin Cowboy!
 
 Well it ain’t no bluff that life is tough
 For a gourd out on the range!
-<span class="target"><span class="original">在牧场上生活的人，生活是艰难的，这并不是虚言！</span> <span class="correction">一个葫芦在牧场上过日子很艰难，这并不是虚言！</span></span>
+<span class="target"><span class="original">在牧场上生活的人，生活是艰难的，这并不是虚言！</span> <span class="correction">一个南瓜在牧场上过日子很艰难，这并不是虚言！[^1]</span></span>
 But for all the woes in the life he chose,
 He’s never seemed to change!
 <span class="target"><span class="original">但他所选择的生活中的所有苦难，他似乎从未改变过!</span> <span class="correction">虽然他在自己选择的生活中吃了很多苦，他似乎从未改变过!</span></span>
@@ -167,7 +167,7 @@ And they crashed into each other,
 Cat and Pumpkin, Flesh and Blade!!!!
 <span class="target">猫和南瓜，肉和刀!!!!！</span>
 (spoken) And the knife fell to the arid ground
-<span class="target"><span class="original">刀子掉在干旱的地上，</span> <span class="correction">（讲的）刀子掉在干旱的地上，</span></span>
+<span class="target"><span class="original">刀子掉在干旱的地上，</span> <span class="correction">（旁白）刀子掉在干旱的地上，</span></span>
 And the scoundrel stood.
 <span class="target"><span class="original">而那个恶棍站着。</span> <span class="correction">而那个恶棍站了起来。</span></span>
 Then swayed.
@@ -182,7 +182,7 @@ And cow stood vigil next to him
 As Pumpkin Cowboy cried.
 <span class="target">南瓜牛仔哭了。</span>
 He tipped his hat at Cowboy Cat,
-<span class="target"><span class="original">他对着猫咪牛仔的帽子，</span> <span class="correction">他向猫牛仔倾斜了帽子，[^1]</span></span>
+<span class="target"><span class="original">他对着猫咪牛仔的帽子，</span> <span class="correction">他向猫牛仔点了点帽子，</span></span>
 And stood without a sound.
 <span class="target"><span class="original">一声不响地站着。</span> <span class="correction">然后默默地站了起来。</span></span>
 And when townfolk came to cheer his name,
@@ -194,7 +194,7 @@ Our hero wasn’t found.
 <span class="target">*钟声响起*</span>
 
 (spoken) Some say he started wandering
-<span class="target"><span class="original">有人说他开始徘徊，</span> <span class="correction">（讲的）有人说他开始徘徊，</span></span>
+<span class="target"><span class="original">有人说他开始徘徊，</span> <span class="correction">（旁白）有人说他开始徘徊，</span></span>
 For greener fields to roam.
 <span class="target"><span class="original">想在更绿的田野上漫游。</span> <span class="correction">想在更美好的田野上漫游。</span></span>
 But he didn’t bring his cattle,
@@ -219,4 +219,4 @@ Pumpkin Cowboy!!!
 PUMPKIN COWBOY!!!!!
 <span class="target">南瓜牛仔!!!!!</span>
 
-[^1]: tip one's hat是一种致敬的动作
+[^1]: 中国不会觉得南瓜和葫芦有什么关系，所以我们就把gourd直接翻译成南瓜

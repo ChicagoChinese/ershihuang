@@ -3,7 +3,7 @@ trackTitle: Pumpkin Cowboy
 artist: Brian David Gilbert
 link: https://youtu.be/4iTAkRHGbuM
 date: 2023-06-10
-draft: true
+draft: false
 
 Pumpkin Cowboy!
 南瓜牛仔!
@@ -17,6 +17,7 @@ And he loves his cattle so!
 But there’s no way he gets lumped in
   With most cowboys you know!
 但他不可能和你认识的大多数牛仔混为一谈!
+；但他跟你认识的大多数牛仔可不一样!
 He’s no outlaw, and he won’t quick draw
 他不是亡命之徒，他也不会快速拔枪，
 For he despises violence.
@@ -24,7 +25,7 @@ For he despises violence.
 Take a fireside moon over your saloon
   As he much prefers the silence!
 在你的酒馆里来个炉边月，因为他更喜欢安静!
-；比起酒吧，他更偏向于篝火边的月亮，因为他更喜欢安静！
+；他不喜欢泡酒吧，他喜欢篝火和月亮，因为他更喜欢安静！
 Pumpkin Cowboy!
 南瓜牛仔！
 Pumpkin Cowboy!
@@ -33,7 +34,8 @@ Pumpkin Cowboy!
 Well it ain’t no bluff that life is tough
   For a gourd out on the range!
 在牧场上生活的人，生活是艰难的，这并不是虚言！
-；一个葫芦在牧场上过日子很艰难，这并不是虚言！
+；一个南瓜在牧场上过日子很艰难，这并不是虚言！
+：中国不会觉得南瓜和葫芦有什么关系，所以我们就把gourd直接翻译成南瓜
 But for all the woes in the life he chose,
   He’s never seemed to change!
 但他所选择的生活中的所有苦难，他似乎从未改变过!
@@ -41,6 +43,7 @@ But for all the woes in the life he chose,
 With a smile wide and a kerchief tied
   Around his neck/waist.
 笑容满面，脖子/腰间系着手帕。
+：在中文里，/读“斜杠”
 And he’s never riled when a cow runs wild,
 当牛狂奔时，他从未被激怒，
 As he’ll lasso them post haste!
@@ -170,7 +173,7 @@ Cat and Pumpkin, Flesh and Blade!!!!
 猫和南瓜，肉和刀!!!!！
 (spoken) And the knife fell to the arid ground
 刀子掉在干旱的地上，
-；（讲的）刀子掉在干旱的地上，
+；（旁白）刀子掉在干旱的地上，
 And the scoundrel stood.
 而那个恶棍站着。
 ；而那个恶棍站了起来。
@@ -190,8 +193,7 @@ As Pumpkin Cowboy cried.
 南瓜牛仔哭了。
 He tipped his hat at Cowboy Cat,
 他对着猫咪牛仔的帽子，
-；他向猫牛仔倾斜了帽子，
-：tip one's hat是一种致敬的动作
+；他向猫牛仔点了点帽子，
 And stood without a sound.
 一声不响地站着。
 ；然后默默地站了起来。
@@ -205,7 +207,7 @@ Our hero wasn’t found.
 
 (spoken) Some say he started wandering
 有人说他开始徘徊，
-；（讲的）有人说他开始徘徊，
+；（旁白）有人说他开始徘徊，
 For greener fields to roam.
 想在更绿的田野上漫游。
 ；想在更美好的田野上漫游。

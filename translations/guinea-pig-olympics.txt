@@ -3,12 +3,12 @@ trackTitle: Guinea Pig Olympics
 artist: Parry Gripp
 link: https://youtu.be/cotkdOCD1eY
 date: 2023-06-06
-draft: true
+draft: false
 
 Guinea Pig Olympics! (Guinea Pig)
 几内亚猪奥运会!（几内亚猪）
-；天竺鼠奥运会！（天竺鼠）
-：Guinea pig可以翻译为几内亚猪，但天竺鼠是更普遍的称呼
+；荷兰猪奥运会！（荷兰猪）
+：Guinea pig可以翻译为几内亚猪，但荷兰猪是更普遍的称呼
 Who is gonna be the one to win?
 谁将成为赢家？
 Guinea Pig Olympics! (Guinea Pig)
@@ -19,6 +19,7 @@ Guinea Pig Olympics! (Guinea Pig)
 几内亚猪奥运会! (几内亚猪)
 Marvel at the blur of their tiny feet.
 惊叹于他们的小脚的模糊。
+；惊叹于他们的飞天无影脚。
 Guinea Pig Olympics! (Guinea Pig)
 几内亚猪奥运会! (几内亚猪)
 The world's greatest guinea pig athletes!
@@ -28,6 +29,7 @@ Jumping the stick!
 跳棍子!
 Leaping the hoop!
 跃起吊环!
+；跃过吊环!
 Running the lawn!
 奔跑在草坪上!
 Who will be the one?

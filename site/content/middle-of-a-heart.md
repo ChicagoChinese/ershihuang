@@ -98,7 +98,7 @@ And put a bullet through the middle of a heart.
 <span class="target">并把子弹射入心脏的中间。</span>
 
 Everybody’s gonna be so sad to see that flag disappear into the earth with me.
-<span class="target"><span class="original">看到那面旗帜和我一起消失在地球上，每个人都会很难过。</span> <span class="correction">看到那面旗帜和我一起消失在土地xia，每个人都会很难过。</span></span>
+<span class="target"><span class="original">看到那面旗帜和我一起消失在地球上，每个人都会很难过。</span> <span class="correction">看到那面旗帜和我一起消失在土地下，每个人都会很难过。</span></span>
 Mama, do you think you still believe I’m gonna see the face of God?
 <span class="target">妈妈，你认为你还相信我会看到上帝的脸吗？</span>
 
