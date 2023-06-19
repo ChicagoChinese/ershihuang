@@ -5,6 +5,7 @@ artist: "The Doubleclicks"
 link: "https://youtu.be/mPxkz0tFs4I"
 youtubeEmbedId: "mPxkz0tFs4I"
 date: 2023-06-11T00:00:00-05:00
+draft: true
 ---
 
 ## Lyrics

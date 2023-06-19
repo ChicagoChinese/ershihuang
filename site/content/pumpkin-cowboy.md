@@ -5,6 +5,7 @@ artist: "Brian David Gilbert"
 link: "https://youtu.be/4iTAkRHGbuM"
 youtubeEmbedId: "4iTAkRHGbuM"
 date: 2023-06-10T00:00:00-05:00
+draft: true
 ---
 
 ## Lyrics

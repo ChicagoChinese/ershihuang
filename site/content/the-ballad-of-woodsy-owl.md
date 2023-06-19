@@ -4,7 +4,7 @@ trackTitle: "the ballad of woodsy owl"
 artist: "Louie Zong"
 link: "https://youtu.be/3Oj9Q9UL1Wc"
 youtubeEmbedId: "3Oj9Q9UL1Wc"
-data: "2023-06-18"
+date: 2023-06-18T00:00:00-05:00
 draft: true
 ---
 

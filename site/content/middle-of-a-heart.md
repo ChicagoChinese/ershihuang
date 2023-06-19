@@ -5,6 +5,7 @@ artist: "Adeem the Artist"
 link: "https://youtu.be/IpRIuhB2B2c"
 youtubeEmbedId: "IpRIuhB2B2c"
 date: 2023-06-12T00:00:00-05:00
+draft: true
 ---
 
 ## Lyrics
@@ -26,9 +27,9 @@ Mama’s gonna be so proud of me when we get back to the farm.
 <span class="target">当我们回到农场的时候，妈妈会为我感到骄傲。</span>
 
 Nights get longer,
-<span class="target"><span class="original">夜晚变长，</span> <span class="correction">夜晚变长了，</span></span>
+<span class="target">夜晚变长，</span>
 Days get hard.
-<span class="target"><span class="original">白天变硬。</span> <span class="correction">白天变得艰难</span></span>
+<span class="target"><span class="original">白天变硬。</span> <span class="correction">白天变艰难</span></span>
 I learned to put a bullet through the middle of a heart.
 <span class="target">我学会了把子弹穿过心脏的中间。</span>
 I learned to put a bullet through the middle of a heart.
@@ -49,7 +50,7 @@ Like a bullet through the middle of a heart.
 Everybody’s gonna be so glad to see her down the aisle at our wedding.
 <span class="target">每个人都会很高兴看到她在我们的婚礼上走过走道。</span>
 Mama’s gonna be so proud of me spinning round to a steel guitar.
-<span class="target"><span class="original">妈妈会为我在钢吉他上转圈而感到骄傲。</span> <span class="correction">妈妈看我在钢吉他的演凑下转圈圈会感到骄傲。</span></span>
+<span class="target"><span class="original">妈妈会为我在钢吉他上转圈而感到骄傲。</span> <span class="correction">妈妈看我顺着钢吉他的弹奏转圈圈会感到骄傲。</span></span>
 
 Nights get longer,
 <span class="target">夜晚越来越长，</span>
@@ -61,7 +62,7 @@ It hits like a bullet through the middle of a heart.
 <span class="target">它像子弹一样击中了心脏的中部。</span>
 
 Daddy paid his service ‘til his time was due.
-<span class="target">爸爸在他的时间到了之前一直在服役。</span>
+<span class="target"><span class="original">爸爸在他的时间到了之前一直在服役。</span> <span class="correction">爸爸服役期满。</span></span>
 His buddy recruits these days.
 <span class="target"><span class="original">他的伙伴这几天在征兵。</span> <span class="correction">他的朋友现在在征兵。</span></span>
 Says I can make my Country proud
@@ -85,7 +86,7 @@ Days stay hard.
 I learned to put a bullet through the middle of a heart.
 <span class="target">我学会了用子弹穿过心脏的中间。</span>
 I learned to put a bullet through the middle of a heart.
-<span class="target">我学会了子弹穿过心脏的中间。</span>
+<span class="target">我学会了用子弹穿过心脏的中间。</span>
 
 I didn’t have a grudge to bear with any of the people there,
 <span class="target">我对那里的任何一个人都没有怨恨，</span>
@@ -104,7 +105,7 @@ Mama, do you think you still believe I’m gonna see the face of God?
 Nights get longer,
 <span class="target">夜晚越来越长，</span>
 The light goes dark.
-<span class="target"><span class="original">光线越来越暗。</span> <span class="correction">光线变黑了。</span></span>
+<span class="target"><span class="original">光线越来越暗。</span> <span class="correction">光熄灭了。</span></span>
 I've learned to put a bullet through the middle of a heart.
 <span class="target">我学会了把子弹射入心脏的中间。</span>
 I've learned to put a bullet through the middle of a heart.

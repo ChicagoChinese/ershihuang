@@ -9,3 +9,6 @@ generate:
 
 new:
 	python new-translation.py
+
+all:
+	python generate-all.py

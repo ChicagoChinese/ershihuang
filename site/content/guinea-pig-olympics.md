@@ -5,6 +5,7 @@ artist: "Parry Gripp"
 link: "https://youtu.be/cotkdOCD1eY"
 youtubeEmbedId: "cotkdOCD1eY"
 date: 2023-06-06T00:00:00-05:00
+draft: true
 ---
 
 ## Lyrics

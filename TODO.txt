@@ -7,6 +7,6 @@
 - [x] Add CSS files to assets directory
 - [x] Meta should just be an ordered dictionary
 - [x] Add Make task to create new translations
-- [x] Translation documents should be JSON, not Markdown
-- [ ] Add tasks to regenerate all translation documents
+- [x] Add tasks to generate all translation documents
+- [ ] Translation documents should be JSON, not Markdown
 - [ ] Use side-by-side layout for desktop

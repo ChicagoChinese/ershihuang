@@ -11,44 +11,43 @@ draft: true
 ## Lyrics
 
 With a body length of about 20 centimeters,
-<span class="target">牛蛙的体长约为20厘米，</span>
 Bullfrogs are the largest frogs in North America,
-<span class="target">是北美最大的青蛙，</span>
+<span class="target">牛蛙的体长约为20厘米，是北美最大的青蛙，</span>
 As well as the champion jumpers.
 <span class="target">同时也是跳跃的冠军。</span>
 
 Long Legged Larry was a frog at the pond.
 <span class="target">长腿拉里是池塘里的一只青蛙。</span>
 Jump so high, might miss him while he gone.
-<span class="target">跳得很高，在他离开时可能会错过他。</span>
+<span class="target"><span class="original">跳得很高，在他离开时可能会错过他。</span> <span class="correction">跳得很高，在他离地时可能会错过他。</span></span>
 Jump over anything, even King Kong.
 <span class="target">跳过任何东西，甚至金刚。</span>
 Jumping Jack Flash was his favorite song.
-<span class="target">跳跃的杰克 "是他最喜欢的歌曲。</span>
+<span class="target">跳跃的杰克是他最喜欢的歌曲。</span>
 Now once upon a time there was a cat in a tree,
 <span class="target">从前有只猫在树上，</span>
 Chased a squirrel up, been stuck since three.
-<span class="target">追着一只松鼠跑，从三点开始就卡住了。</span>
+<span class="target"><span class="original">追着一只松鼠跑，从三点开始就卡住了。</span> <span class="correction">追着一只松鼠跑上去，从三点开始就卡住了。</span></span>
 The fireman came, said "It's too high for me".
 <span class="target">消防员来了，说 "这对我来说太高了"。</span>
 How's that cat gonna ever get free?
 <span class="target">那只猫怎么可能获得自由呢？</span>
 Young Jack Turner was a staple on the block,
-<span class="target">年轻的杰克-特纳是街区的主力军，</span>
+<span class="target">年轻的杰克·特纳是街区的主力军，</span>
 Said he knew about a frog with an XL hop.
 <span class="target">他说他知道有一只青蛙会跳得很厉害。</span>
 The neighbors started laughing, but Jackie wouldn't stop.
 <span class="target">邻居们开始大笑，但杰克不肯罢休。</span>
 Ran off, came back, guess who he got?
-<span class="target">他跑了，又回来了，你猜他抓到了谁？</span>
+<span class="target"><span class="original">他跑了，又回来了，你猜他抓到了谁？</span> <span class="correction">他跑走了，又回来了，你猜他把谁带过来了？</span></span>
 Well, it was Long Legged Larry, didn't open his mouth,
 <span class="target">好吧，是长腿拉里，他没有开口，</span>
 Like a rocket to the moon through a cumulus cloud,
 <span class="target">就像火箭穿过积雨云飞向月球，</span>
 Touch down safe, lay the scaredy-cat on the ground.
-<span class="target">安全着陆，把那只胆小的猫放在地上。如果你听得很仔细，</span>
+<span class="target">安全着陆，把那只胆小的猫放在地上。</span>
 If you listen real close, you can still hear the crowd.
-<span class="target">你还能听到人群的声音。</span>
+<span class="target">如果你听得很仔细，你还能听到人群的声音。</span>
 
 Go Larry, go Larry, go, go, go Larry.
 <span class="target">去吧，拉里，去吧，拉里，去吧，拉里。</span>
@@ -62,9 +61,9 @@ Jump so high grow a beard in the air.
 Jump over anything, even Times Square.
 <span class="target">跳过任何东西，甚至时代广场。</span>
 Yelling "Long Legged Larry for mayor! Here! Here!"
-<span class="target">喊着 "长腿拉里竞选市长！"！这里! 这里！这里！"</span>
+<span class="target">喊着 "长腿拉里竞选市长！这里! 这里！"</span>
 Now once upon a time there was a princess in a cell.
-<span class="target">现在，很久以前，有一位公主在牢房里。</span>
+<span class="target"><span class="original">现在，很久以前，有一位公主在牢房里。</span> <span class="correction">从前有一位公主在牢房里。</span></span>
 In the tower of a castle, through a forest on a hill.
 <span class="target">在一座城堡的塔楼里，穿过一座山上的森林。</span>
 Half the men that ever sought her out had fallen ill.
@@ -72,11 +71,11 @@ Half the men that ever sought her out had fallen ill.
 All the men that ever tried to climb the wall had fell.
 <span class="target">所有试图爬上城墙的人都倒下了。</span>
 Handful gather at the base of the place,
-<span class="target">一小撮人聚集在山脚下，</span>
+<span class="target"><span class="original">一小撮人聚集在山脚下，</span> <span class="correction">一小撮人聚集在那个地方的地基，</span></span>
 Each claim way braver than the bravest you've faced,
 <span class="target">每个人都声称自己比你所面对的最勇敢的人更勇敢，</span>
 Bunch of dingbats yapping about saving the day.
-<span class="target">一群笨蛋嚷嚷着要拯救这一天。</span>
+<span class="target"><span class="original">一群笨蛋嚷嚷着要拯救这一天。</span> <span class="correction">一群笨蛋嚷嚷着要拯救一切。</span></span>
 But wait, a silhouetted amphibian face in haze.
 <span class="target">但是等一下，在朦胧中出现了一张两栖动物的剪影。</span>
 Well, it was Long Legged Larry on the back of a steed.

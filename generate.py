@@ -191,6 +191,15 @@ def convert_page_to_markdown(page: Page, output_file: Path):
     for chunk in get_markdown_chunks(page):
       fp.write(chunk + '\n')
 
+def generate(input_file: Path):
+  print(f'Processing {input_file}')
+  output_file = (content_dir / Path(input_file.name)).with_suffix('.md')
+
+  tokens = tokenize(input_file)
+  page = parse(tokens)
+  convert_page_to_markdown(page, output_file)
+  print(f'Generated {output_file}')
+
 if __name__ == '__main__':
   if len(sys.argv) > 1:
     input_file = Path(sys.argv[1])
@@ -199,10 +208,4 @@ if __name__ == '__main__':
     txt_files.sort(key=lambda p: p.stat().st_mtime, reverse=True)
     input_file = txt_files[0]
 
-  print(f'Processing {input_file}')
-  output_file = (content_dir / Path(input_file.name)).with_suffix('.md')
-
-  tokens = tokenize(input_file)
-  page = parse(tokens)
-  convert_page_to_markdown(page, output_file)
-  print(f'Generated {output_file}')
+  generate(input_file)

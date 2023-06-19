@@ -2,7 +2,7 @@ title: 木兹猫头鹰之民谣
 trackTitle: the ballad of woodsy owl
 artist: Louie Zong
 link: https://youtu.be/3Oj9Q9UL1Wc
-data: 2023-06-18
+date: 2023-06-18
 draft: true
 
 Smokey Bear has got a pal who is always on the prowl.
