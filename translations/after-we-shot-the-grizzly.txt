@@ -30,12 +30,14 @@ I found a human skull.
 
 The captain caught a fever.
 上尉发烧了。
+；机长发烧了
 We tied him to a tree.
 我们把他绑在一棵树上。
 We stared into the fire,
 我们盯着火堆，
 And tried not to hear his screams.
 试图不听他的尖叫声。
+；假装听不到他的尖叫声。
 
 I killed a tiny antelope,
 我杀了一只小羚羊，
@@ -67,6 +69,7 @@ They threw the sharpest stones.
 
 But how the sea did spin us.
 但大海是如何旋转我们。
+；但大海是如何旋转我们的。
 How the waves did roar.
 海浪如何咆哮。
 The captain jumped into the storm,

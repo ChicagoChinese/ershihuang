@@ -20,11 +20,11 @@ When he looks from left to right, town and forest he can see.
 <span class="target">当他从左到右看，城镇和森林他都能看到。</span>
 
 Give a hoot, don’t pollute, your good outdoor manners show.
-<span class="target"><span class="original">给予呼唤，不要污染，你的良好户外礼仪显示出来。</span> <span class="correction">请在意，不要污染，你的良好户外礼仪会显示出来的。</span></span>
+<span class="target"><span class="original">给予呼唤，不要污染，你的良好户外礼仪显示出来。</span> <span class="correction">在意吧，不要污染，你的良好户外礼仪会显示出来的。</span></span>
 Leave a trail that’s nice and clean wherever you may go. (Hoot hoot!)
 <span class="target"><span class="original">无论你走到哪里，都会留下一条漂亮而干净的痕迹。(Hoot hoot!)</span> <span class="correction">无论你走到哪里，都要留下一条漂亮而干净的痕迹。（呼呼！）</span></span>
 Give a hoot, don’t pollute, Woodsy Owl knows what is best.
-<span class="target"><span class="original">放弃吧，不要污染，Woodsy Owl知道什么是最好的。</span> <span class="correction">请在意，不要污染，Woodsy猫头鹰知道什么是最好的。</span></span>
+<span class="target"><span class="original">放弃吧，不要污染，Woodsy Owl知道什么是最好的。</span> <span class="correction">在意吧，不要污染，Woodsy猫头鹰知道什么是最好的。</span></span>
 Help him check pollution in the North, South, East and West. (Hoot hoot!)
 <span class="target"><span class="original">帮助他检查北方、南方、东方和西方的污染。(Hoot hoot!)</span> <span class="correction">帮助他检查北方、南方、东方和西方的污染。（呼呼！）</span></span>
 

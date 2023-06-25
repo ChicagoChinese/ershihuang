@@ -101,12 +101,16 @@ Jump over anything, even Salt Lake.
 跳过任何东西，甚至盐湖。
 Jump into the mosh pit, jump out of a cake.
 跳进沼泽坑，跳出蛋糕。
+；跳进mosh区，跳出蛋糕。
 Now once upon a time there was a circus in town.
 很久很久以前，镇上有一个马戏团。
+；从前，马戏团来到镇。
 Some went for the cotton candy, some for the clowns,
 有些人去看棉花糖，有些人去看小丑，
+；有些人去吃棉花糖，有些人去看小丑，
 But the high wire act was the most profound.
 但高空钢丝表演是最深刻的。
+；但高空钢丝表演是最难忘的。
 Had a poodle on a unicycle, rose in her mouth.
 有一只狮子狗骑着独轮车，嘴里叼着玫瑰。
 Ten o'clock show get the poodle in position.
@@ -119,6 +123,7 @@ But what the heck is that thing in the distance?
 但是，远处的那个东西到底是什么？
 Ribbit, Long Legged Larry, a sight for sore eyes.
 肋骨，长腿拉里，让人眼花缭乱的东西。
+；呱呱，长腿拉里，一见到它真的让人很开心。
 Known to give a dog a ride seconds after he arrives.
 在他到达后的几秒钟内，他就会带着一只狗去兜风。
 Touch down safe, give her some kibbles and rawhide.

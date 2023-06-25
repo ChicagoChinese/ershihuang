@@ -34,13 +34,13 @@ I found a human skull.
 <span class="target">我发现了一个人的头骨。</span>
 
 The captain caught a fever.
-<span class="target">上尉发烧了。</span>
+<span class="target"><span class="original">上尉发烧了。</span> <span class="correction">机长发烧了</span></span>
 We tied him to a tree.
 <span class="target">我们把他绑在一棵树上。</span>
 We stared into the fire,
 <span class="target">我们盯着火堆，</span>
 And tried not to hear his screams.
-<span class="target">试图不听他的尖叫声。</span>
+<span class="target"><span class="original">试图不听他的尖叫声。</span> <span class="correction">假装听不到他的尖叫声。</span></span>
 
 I killed a tiny antelope,
 <span class="target">我杀了一只小羚羊，</span>
@@ -71,7 +71,7 @@ They threw the sharpest stones.
 <span class="target">他们扔了最尖锐的石头。</span>
 
 But how the sea did spin us.
-<span class="target">但大海是如何旋转我们。</span>
+<span class="target"><span class="original">但大海是如何旋转我们。</span> <span class="correction">但大海是如何旋转我们的。</span></span>
 How the waves did roar.
 <span class="target">海浪如何咆哮。</span>
 The captain jumped into the storm,

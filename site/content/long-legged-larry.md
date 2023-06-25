@@ -99,13 +99,13 @@ Jump so high pluck a star out of space.
 Jump over anything, even Salt Lake.
 <span class="target">跳过任何东西，甚至盐湖。</span>
 Jump into the mosh pit, jump out of a cake.
-<span class="target">跳进沼泽坑，跳出蛋糕。</span>
+<span class="target"><span class="original">跳进沼泽坑，跳出蛋糕。</span> <span class="correction">跳进mosh区，跳出蛋糕。</span></span>
 Now once upon a time there was a circus in town.
-<span class="target">很久很久以前，镇上有一个马戏团。</span>
+<span class="target"><span class="original">很久很久以前，镇上有一个马戏团。</span> <span class="correction">从前，马戏团来到镇。</span></span>
 Some went for the cotton candy, some for the clowns,
-<span class="target">有些人去看棉花糖，有些人去看小丑，</span>
+<span class="target"><span class="original">有些人去看棉花糖，有些人去看小丑，</span> <span class="correction">有些人去吃棉花糖，有些人去看小丑，</span></span>
 But the high wire act was the most profound.
-<span class="target">但高空钢丝表演是最深刻的。</span>
+<span class="target"><span class="original">但高空钢丝表演是最深刻的。</span> <span class="correction">但高空钢丝表演是最难忘的。</span></span>
 Had a poodle on a unicycle, rose in her mouth.
 <span class="target">有一只狮子狗骑着独轮车，嘴里叼着玫瑰。</span>
 Ten o'clock show get the poodle in position.
@@ -117,7 +117,7 @@ Now the poodle barely clinging to the wire by her mittens.
 But what the heck is that thing in the distance?
 <span class="target">但是，远处的那个东西到底是什么？</span>
 Ribbit, Long Legged Larry, a sight for sore eyes.
-<span class="target">肋骨，长腿拉里，让人眼花缭乱的东西。</span>
+<span class="target"><span class="original">肋骨，长腿拉里，让人眼花缭乱的东西。</span> <span class="correction">呱呱，长腿拉里，一见到它真的让人很开心。</span></span>
 Known to give a dog a ride seconds after he arrives.
 <span class="target">在他到达后的几秒钟内，他就会带着一只狗去兜风。</span>
 Touch down safe, give her some kibbles and rawhide.
