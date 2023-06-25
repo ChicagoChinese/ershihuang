@@ -23,7 +23,7 @@ def get_meta(track: Path):
   return meta
 
 def get_track():
-  search = input('Enter name of file: ')
+  search = input('Enter name of AAC file: ').lower()
 
   tracks = tracks_dir.glob('**/*.m4a')
   for track in tracks:
