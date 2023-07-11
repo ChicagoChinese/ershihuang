@@ -43,11 +43,10 @@ And tried not to hear his screams.
 <span class="target"><span class="original">试图不听他的尖叫声。</span> <span class="correction">假装听不到他的尖叫声。</span></span>
 
 I killed a tiny antelope,
-<span class="target">我杀了一只小羚羊，</span>
 Not scared by my approach.
-<span class="target">没有因为我的接近而害怕。</span>
+<span class="target"><span class="original">我杀了一只小羚羊，没有因为我的接近而害怕。</span> <span class="correction">我杀了一只小羚羊，因为它不惧怕我的接近</span></span>
 We turned it over dying flames
-<span class="target">我们把它翻过奄奄一息的火焰，</span>
+<span class="target"><span class="original">我们把它翻过奄奄一息的火焰，</span> <span class="correction">我们把它架在奄奄一息的火焰上，</span></span>
 As we huddled in the glow.
 <span class="target">我们蜷缩在光芒中。</span>
 
@@ -70,17 +69,17 @@ Yes, Mary,
 They threw the sharpest stones.
 <span class="target">他们扔了最尖锐的石头。</span>
 
-But how the sea did spin us.
-<span class="target"><span class="original">但大海是如何旋转我们。</span> <span class="correction">但大海是如何旋转我们的。</span></span>
-How the waves did roar.
-<span class="target">海浪如何咆哮。</span>
+But how the sea did spin us!
+<span class="target"><span class="original">但大海是如何旋转我们！</span> <span class="correction">但大海是这样的旋转！</span></span>
+How the waves did roar!
+<span class="target"><span class="original">海浪如何咆哮！</span> <span class="correction">海浪是这样的咆哮！</span></span>
 The captain jumped into the storm,
 <span class="target"><span class="original">船长跳进风暴中，</span> <span class="correction">机长跳进风暴中，</span></span>
 Then we were but four.
 <span class="target">然后我们只有四个人。</span>
 
 One by one, we chose our straws
-<span class="target">一个接一个，我们选择了我们的稻草，</span>
+<span class="target"><span class="original">一个接一个，我们选择了我们的稻草，</span> <span class="correction">一个接一个，我们抽签决定了命运，</span></span>
 'Til only I remained.
 <span class="target">直到只剩下我。</span>
 But Mary, you are with me now

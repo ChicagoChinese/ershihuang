@@ -29,7 +29,7 @@ Mama’s gonna be so proud of me when we get back to the farm.
 Nights get longer,
 <span class="target">夜晚变长，</span>
 Days get hard.
-<span class="target"><span class="original">白天变硬。</span> <span class="correction">白天变艰难</span></span>
+<span class="target"><span class="original">白天变硬。</span> <span class="correction">白天变艰难。</span></span>
 I learned to put a bullet through the middle of a heart.
 <span class="target">我学会了把子弹穿过心脏的中间。</span>
 I learned to put a bullet through the middle of a heart.
@@ -37,13 +37,13 @@ I learned to put a bullet through the middle of a heart.
 
 Carlene asked if she could marry me,
 Driving round in Daddy’s car.
-<span class="target"><span class="original">卡琳问我她是否可以嫁给我，开着爸爸的车转了一圈。</span> <span class="correction">我们开着爸爸的车兜风时，卡琳问我她是否可以嫁给我。</span></span>
+<span class="target"><span class="original">卡琳问我她是否可以嫁给我，开着爸爸的车转了一圈。</span> <span class="correction">我们开着爸爸的车兜风时，卡林向我求婚。</span></span>
 I gave her my graduation ring
 <span class="target">我把我的毕业戒指给了她，</span>
 Down by the lumber yard.
 <span class="target">就在伐木场旁。</span>
-I felt the violent hit of her passionate kiss
-<span class="target">我感觉到她热情的吻所带来的猛烈冲击，</span>
+I felt the violent hit of her passionate kiss,
+<span class="target"><span class="original">我感觉到她热情的吻所带来的猛烈冲击，</span> <span class="correction">我感觉到她热情吻的猛烈冲击，</span></span>
 Like a bullet through the middle of a heart.
 <span class="target">就像一颗子弹穿过心脏的中间。</span>
 
@@ -109,5 +109,5 @@ The light goes dark.
 I've learned to put a bullet through the middle of a heart.
 <span class="target">我学会了把子弹射入心脏的中间。</span>
 I've learned to put a bullet through the middle of a heart.
-<span class="target">我学会了把子弹穿过心脏的中间。</span>
+<span class="target">我学会了把子弹射入心脏的中间。</span>
 

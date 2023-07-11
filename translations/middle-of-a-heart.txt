@@ -26,7 +26,7 @@ Nights get longer,
 夜晚变长，
 Days get hard.
 白天变硬。
-；白天变艰难
+；白天变艰难。
 I learned to put a bullet through the middle of a heart.
 我学会了把子弹穿过心脏的中间。
 I learned to put a bullet through the middle of a heart.
@@ -35,13 +35,14 @@ I learned to put a bullet through the middle of a heart.
 Carlene asked if she could marry me,
   Driving round in Daddy’s car.
 卡琳问我她是否可以嫁给我，开着爸爸的车转了一圈。
-；我们开着爸爸的车兜风时，卡琳问我她是否可以嫁给我。
+；我们开着爸爸的车兜风时，卡林向我求婚。
 I gave her my graduation ring
 我把我的毕业戒指给了她，
 Down by the lumber yard.
 就在伐木场旁。
-I felt the violent hit of her passionate kiss
+I felt the violent hit of her passionate kiss,
 我感觉到她热情的吻所带来的猛烈冲击，
+；我感觉到她热情吻的猛烈冲击，
 Like a bullet through the middle of a heart.
 就像一颗子弹穿过心脏的中间。
 
@@ -114,4 +115,4 @@ The light goes dark.
 I've learned to put a bullet through the middle of a heart.
 我学会了把子弹射入心脏的中间。
 I've learned to put a bullet through the middle of a heart.
-我学会了把子弹穿过心脏的中间。
+我学会了把子弹射入心脏的中间。

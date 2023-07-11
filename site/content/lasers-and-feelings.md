@@ -24,7 +24,7 @@ You've got a master plan, and it's evil.
 Your hopes are for worldwide upheaval.
 <span class="target">你的希望是世界性的动荡。</span>
 They seem violent and somewhat medieval,
-<span class="target">他们似乎很暴力，有点中世纪的味道，</span>
+<span class="target"><span class="original">他们似乎很暴力，有点中世纪的味道，</span> <span class="correction">它们似乎很暴力，有点中世纪的味道，</span></span>
 But I'm thinking that my love could save you.
 <span class="target">但我想我的爱可以拯救你。</span>
 
@@ -44,7 +44,7 @@ Everyone in the world knows your name now,
 And that might give you some comfort somehow.
 <span class="target">这可能会给你一些安慰。</span>
 But no one has promised their vows,
-<span class="target">但没有人承诺他们的誓言，</span>
+<span class="target"><span class="original">但没有人承诺他们的誓言，</span> <span class="correction">但没有人愿意给你许下一生的诺言</span></span>
 And I know I'm the right one for you.
 <span class="target">而我知道我是你的最佳人选。</span>
 

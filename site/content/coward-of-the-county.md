@@ -4,7 +4,7 @@ trackTitle: "Coward of The County"
 artist: "Kenny Rogers"
 link: "https://youtu.be/mNlswqBZ7u4"
 youtubeEmbedId: "mNlswqBZ7u4"
-data: "2023-06-25"
+date: 2023-06-25T00:00:00-05:00
 draft: true
 ---
 

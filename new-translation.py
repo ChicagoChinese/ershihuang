@@ -37,7 +37,7 @@ def get_text_file_chunks(meta: dict):
   yield f'trackTitle: {meta["title"]}'
   yield f'artist: {meta["artist"]}'
   yield f'link: {meta["comment"]}'
-  yield f'data: {datetime.date.today():%Y-%m-%d}'
+  yield f'date: {datetime.date.today():%Y-%m-%d}'
   yield f'draft: true'
   yield ''
   lyrics = meta['lyrics'].replace('\r', '\n')

@@ -40,11 +40,12 @@ And tried not to hear his screams.
 ；假装听不到他的尖叫声。
 
 I killed a tiny antelope,
-我杀了一只小羚羊，
-Not scared by my approach.
-没有因为我的接近而害怕。
+  Not scared by my approach.
+我杀了一只小羚羊，没有因为我的接近而害怕。
+；我杀了一只小羚羊，因为它不惧怕我的接近
 We turned it over dying flames
 我们把它翻过奄奄一息的火焰，
+；我们把它架在奄奄一息的火焰上，
 As we huddled in the glow.
 我们蜷缩在光芒中。
 
@@ -67,11 +68,12 @@ Yes, Mary,
 They threw the sharpest stones.
 他们扔了最尖锐的石头。
 
-But how the sea did spin us.
-但大海是如何旋转我们。
-；但大海是如何旋转我们的。
-How the waves did roar.
-海浪如何咆哮。
+But how the sea did spin us!
+但大海是如何旋转我们！
+；但大海是这样的旋转！
+How the waves did roar!
+海浪如何咆哮！
+；海浪是这样的咆哮！
 The captain jumped into the storm,
 船长跳进风暴中，
 ；机长跳进风暴中，
@@ -80,6 +82,7 @@ Then we were but four.
 
 One by one, we chose our straws
 一个接一个，我们选择了我们的稻草，
+；一个接一个，我们抽签决定了命运，
 'Til only I remained.
 直到只剩下我。
 But Mary, you are with me now
